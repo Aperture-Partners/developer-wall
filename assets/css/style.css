@@ -97,23 +97,25 @@ h1 {
   font-size: 1.15rem;
 }
 
-.details {
-  display: flex;
-  gap: 8px;
+.handle {
   margin: 0 0 10px;
-  color: var(--muted);
   font-size: 0.9rem;
 }
 
-.details a {
+.handle a {
   color: var(--green);
   text-decoration: none;
 }
 
-.idea {
-  margin: 0;
+.fact {
+  margin: 6px 0 0;
   font-size: 0.95rem;
   line-height: 1.4;
+}
+
+.fact strong {
+  color: var(--muted);
+  font-weight: 600;
 }
 
 .join {

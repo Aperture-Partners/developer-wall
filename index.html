@@ -32,8 +32,9 @@ layout: null
             </a>
             <div class="profile-content">
               <h2>{{ member.name | escape }}</h2>
-              <p class="details"><a href="https://github.com/{{ member.github | escape }}">@{{ member.github | escape }}</a><span>·</span>{{ member.favorite_language | escape }}</p>
-              <p class="idea">Wants to build {{ member.project_idea | escape }}.</p>
+              <p class="handle"><a href="https://github.com/{{ member.github | escape }}">@{{ member.github | escape }}</a></p>
+              <p class="fact"><strong>Favorite language:</strong> {{ member.favorite_language | escape }}</p>
+              <p class="fact"><strong>Fun fact:</strong> {{ member.fun_fact | escape }}</p>
             </div>
           </article>
         {% endfor %}

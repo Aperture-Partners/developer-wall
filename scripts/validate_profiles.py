@@ -13,7 +13,6 @@ FIELDS = {
     "name": 60,
     "github": 39,
     "favorite_language": 40,
-    "project_idea": 180,
     "fun_fact": 180,
 }
 USERNAME = re.compile(r"^(?!-)(?!.*--)[A-Za-z0-9-]{1,39}(?<!-)$")
@@ -58,7 +57,7 @@ def validate(directory: Path = PROFILE_DIR) -> list[str]:
                     detail.append("missing: " + ", ".join(missing))
                 if extra:
                     detail.append("unexpected: " + ", ".join(extra))
-                problems.append(error(item, "Use exactly the five profile fields (" + "; ".join(detail) + ")"))
+                problems.append(error(item, "Use exactly the four profile fields (" + "; ".join(detail) + ")"))
                 continue
             for field, limit in FIELDS.items():
                 value = data[field]

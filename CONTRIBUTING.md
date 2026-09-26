@@ -2,7 +2,7 @@
 
 During the workshop, add only your own profile file at `_data/profiles/<lowercase-github-username>.json`.
 
-The file must contain exactly five nonempty strings. They are `name` `github` `favorite_language` `project_idea` and `fun_fact`. Your `github` value must match the lowercase filename and must not include `@`.
+The file must contain exactly four nonempty strings. They are `name` `github` `favorite_language` and `fun_fact`. Your `github` value must match the lowercase filename and must not include `@`.
 
 Use friendly content for a public site. Do not include private details. Do not edit another profile.
 
