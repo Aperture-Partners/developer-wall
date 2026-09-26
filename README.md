@@ -17,7 +17,6 @@ Create only `_data/profiles/YOUR-GITHUB-USERNAME.json`
   "name": "Your name or nickname",
   "github": "your-github-username",
   "favorite_language": "Still learning!",
-  "project_idea": "A delightfully useful project idea",
   "fun_fact": "Ask me later!"
 }
 ```

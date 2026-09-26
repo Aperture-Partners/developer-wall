@@ -22,12 +22,11 @@ A branch is your separate workspace. Check that your new branch name is visible 
   "name": "Your name or nickname",
   "github": "your-github-username",
   "favorite_language": "Still learning!",
-  "project_idea": "An app that finds the best study spot on campus",
   "fun_fact": "Ask me later!"
 }
 ```
 
-JSON needs double quotes and commas between lines. Do not add a comma after the final value. Keep the same five field names.
+JSON needs double quotes and commas between lines. Do not add a comma after the final value. Keep the same four field names.
 
 4. Choose **Commit changes…**.
 5. Use the message `Add YOUR-USERNAME profile`, confirm the commit is going to your branch, and choose **Commit changes**.

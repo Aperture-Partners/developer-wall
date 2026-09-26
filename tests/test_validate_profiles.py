@@ -13,7 +13,6 @@ VALID = {
     "name": "Ada <script>alert(1)</script>",
     "github": "ada-lovelace",
     "favorite_language": "Python",
-    "project_idea": "A safe & useful machine",
     "fun_fact": "Writes symbols, not raw HTML",
 }
 
@@ -48,7 +47,7 @@ class ValidatorTests(unittest.TestCase):
     def test_wrong_type_empty_and_too_long(self):
         self.assertTrue(self.run_case({"ada-lovelace.json": self.profile(name=3)}))
         self.assertTrue(self.run_case({"ada-lovelace.json": self.profile(name=" ")}))
-        self.assertTrue(self.run_case({"ada-lovelace.json": self.profile(project_idea="x" * 181)}))
+        self.assertTrue(self.run_case({"ada-lovelace.json": self.profile(fun_fact="x" * 181)}))
 
     def test_bad_handle_and_filename_mismatch(self):
         self.assertTrue(self.run_case({"other.json": self.profile(github="-bad-")}))
