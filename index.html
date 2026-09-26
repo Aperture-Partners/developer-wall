@@ -1,0 +1,47 @@
+---
+layout: null
+---
+{% assign members = site.data.profiles %}
+{% assign member_count = members | size %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description | escape }}">
+  <title>{{ site.title | escape }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <main class="page">
+    <header class="page-header">
+      <div>
+        <h1>AP Tech Vertical Members</h1>
+      </div>
+      <a class="repo-link" href="https://github.com/Aperture-Partners/developer-wall">GitHub repository</a>
+    </header>
+
+    <section id="members" aria-label="Developer profiles">
+      {% if member_count > 0 %}
+      <div class="card-grid">
+        {% for entry in members %}
+          {% assign member = entry[1] %}
+          <article class="profile-card">
+            <a class="avatar" href="https://github.com/{{ member.github | escape }}" aria-label="Open {{ member.name | escape }} on GitHub">
+              <img src="https://github.com/{{ member.github | escape }}.png?size=460" alt="{{ member.name | escape }} GitHub avatar">
+            </a>
+            <div class="profile-content">
+              <h2>{{ member.name | escape }}</h2>
+              <p class="details"><a href="https://github.com/{{ member.github | escape }}">@{{ member.github | escape }}</a><span>·</span>{{ member.favorite_language | escape }}</p>
+              <p class="idea">Wants to build {{ member.project_idea | escape }}.</p>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <p class="join"><a href="https://github.com/Aperture-Partners/developer-wall/blob/main/WORKSHOP.md">Your profile appears here after your pull request is merged</a></p>
+    </section>
+  </main>
+</body>
+</html>

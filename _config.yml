@@ -1,0 +1,9 @@
+title: AP Tech Vertical Members
+description: Built by the Aperture Partners community, one pull request at a time.
+url: "https://aperture-partners.github.io"
+baseurl: "/developer-wall"
+exclude:
+  - scripts
+  - tests
+  - examples
+  - Gemfile
