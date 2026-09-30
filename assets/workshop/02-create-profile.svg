@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <rect width="1000" height="520" rx="16" fill="#f6f8fa"/>
+  <rect x="36" y="32" width="928" height="456" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="36" y="32" width="928" height="58" rx="10" fill="#24292f"/>
+  <text x="70" y="68" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Create new file</text>
+  <text x="68" y="132" font-family="Arial, sans-serif" font-size="14" fill="#57606a">developer-wall /</text>
+  <rect x="176" y="108" width="500" height="38" rx="6" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
+  <text x="190" y="133" font-family="Arial, sans-serif" font-size="15" fill="#1f2328">_data/profiles/your-username.json</text>
+  <rect x="68" y="168" width="610" height="260" rx="8" fill="#0d1117"/>
+  <text x="92" y="205" font-family="Consolas, monospace" font-size="17" fill="#c9d1d9">{</text>
+  <text x="112" y="242" font-family="Consolas, monospace" font-size="17" fill="#a5d6ff">"name"</text>
+  <text x="180" y="242" font-family="Consolas, monospace" font-size="17" fill="#c9d1d9">  "Your name",</text>
+  <text x="112" y="279" font-family="Consolas, monospace" font-size="17" fill="#a5d6ff">"github"</text>
+  <text x="200" y="279" font-family="Consolas, monospace" font-size="17" fill="#c9d1d9">  "your-username",</text>
+  <text x="112" y="316" font-family="Consolas, monospace" font-size="17" fill="#a5d6ff">"favorite_language"</text>
+  <text x="315" y="316" font-family="Consolas, monospace" font-size="17" fill="#c9d1d9">  "Java",</text>
+  <text x="112" y="353" font-family="Consolas, monospace" font-size="17" fill="#a5d6ff">"fun_fact"</text>
+  <text x="218" y="353" font-family="Consolas, monospace" font-size="17" fill="#c9d1d9">  "I like building things"</text>
+  <text x="92" y="390" font-family="Consolas, monospace" font-size="17" fill="#c9d1d9">}</text>
+  <circle cx="736" cy="127" r="24" fill="#0969da"/>
+  <text x="729" y="135" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">1</text>
+  <text x="774" y="122" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Name the file</text>
+  <text x="774" y="147" font-family="Arial, sans-serif" font-size="15" fill="#57606a">Use your username</text>
+  <circle cx="736" cy="265" r="24" fill="#0969da"/>
+  <text x="729" y="273" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">2</text>
+  <text x="774" y="248" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Add four fields</text>
+  <text x="774" y="275" font-family="Arial, sans-serif" font-size="15" fill="#57606a">Keep the quotes</text>
+  <text x="774" y="299" font-family="Arial, sans-serif" font-size="15" fill="#57606a">Keep the commas</text>
+  <circle cx="736" cy="402" r="24" fill="#1a7f37"/>
+  <text x="729" y="410" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">3</text>
+  <text x="774" y="397" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Commit changes</text>
+  <text x="774" y="422" font-family="Arial, sans-serif" font-size="15" fill="#57606a">Save to your branch</text>
+</svg>
