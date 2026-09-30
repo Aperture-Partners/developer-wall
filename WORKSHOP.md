@@ -55,7 +55,7 @@ Open the PR checks. **validate-profiles** checks the filename and JSON. If it fa
 
 ## 5. Swap reviews
 
-Request your assigned partner under **Reviewers**. Then open your partner's PR and choose **Files changed**. Check that it changes only their profile and that the content is appropriate.
+Request a specific reviewer under **Reviewers** or send someone a link to your pr. Then open your partner's PR and choose **Files changed**. Check that it changes only their profile and that the content is appropriate.
 
 Leave one useful comment or question. When it is ready choose **Review changes → Approve → Submit review**. A normal comment is not a formal approval. You cannot approve your own PR.
 
