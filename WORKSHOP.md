@@ -11,6 +11,8 @@ You will make one real contribution in your browser. This repository is public. 
 
 A branch is your separate workspace. Check that your new branch name is visible before continuing.
 
+![Create a branch in GitHub](assets/workshop/01-create-branch.svg)
+
 ## 2. Add your profile
 
 1. Choose **Add file → Create new file**.
@@ -33,6 +35,8 @@ JSON needs double quotes and commas between lines. Do not add a comma after the 
 
 A commit is a saved snapshot.
 
+![Create and commit a profile file](assets/workshop/02-create-profile.svg)
+
 ## 3. Open a pull request
 
 1. Choose **Compare & pull request**. If the banner is gone open **Pull requests → New pull request**. Set base to `main` and compare to your branch.
@@ -41,15 +45,23 @@ A commit is a saved snapshot.
 
 A pull request asks to add your branch to `main`.
 
+![Open a pull request](assets/workshop/03-open-pr.svg)
+
 ## 4. Pass the check
 
 Open the PR checks. **validate-profiles** checks the filename and JSON. If it fails open **Details** and fix the same file on the same branch. The PR updates on its own. Do not open a second PR.
+
+![Check automated profile validation](assets/workshop/04-checks.svg)
 
 ## 5. Swap reviews
 
 Request your assigned partner under **Reviewers**. Then open your partner's PR and choose **Files changed**. Check that it changes only their profile and that the content is appropriate.
 
 Leave one useful comment or question. When it is ready choose **Review changes → Approve → Submit review**. A normal comment is not a formal approval. You cannot approve your own PR.
+
+![Approve a pull request as a reviewer](assets/workshop/05-approve-review.svg)
+
+You do not need to be requested as a reviewer. Any Aperture Partners member can open **Files changed** and submit an approval. Make sure you are signed in to the GitHub account that belongs to the organization.
 
 ## 6. Merge and find your card
 
